@@ -1,0 +1,42 @@
+Prerequisites:-
+            . You should have a GitHub account.
+            . Git and VS Code should be installed on your machine.
+
+How To Push In VScode in Terminal:-
+
+          1. Initialize a Git repository.
+          2. Open VS Code and navigate to the root directory of your project.
+          3. Open the Terminal in VS Code.
+	STEP-1: git init
+	STEP-2: git status
+	STEP-3: git add .
+	STEP-4: git commit -m "Your commit Message"
+
+Create a new repository on GitHub:-
+
+          1. Go to your GitHub account, click the + sign in the top-right corner, and select New repository.
+          2. Name your repository (e.g., portfolio), and choose public.
+          3. Do not initialize with a README, because you're pushing an existing project.
+
+Link your local project to the remote GitHub repository:-
+
+          1. Copy the GitHub repository URL.
+          2. In the VS Code terminal, link your local repository to the remote repository by adding the GitHub repo URL:
+	
+	.git remote add origin " repositary link "
+	.git push -u origin main
+
+Creating a Deployment Link In GitHub:-
+
+           1. You can deploy your portfolio using GitHub Pages
+
+	STEP-1: Go to your repository on GitHub.
+	STEP-2: Click on the Settings tab.
+	STEP-3: Scroll down to the Pages section (left sidebar or in the main settings page).
+	STEP-4: In the Source section, select the master branch or main branch as the source.
+	STEP-5: Click save.
+
+Wait for Deployment:-
+
+           1. GitHub will automatically deploy your site.
+           2. After a few minutes, you will see a link appear under the GitHub Pages section (something like https://username.github.io/repository/).
